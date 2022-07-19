@@ -144,10 +144,6 @@ header {
     padding: 10px 20px;
     font-size: 16px;
   }
-
-  .intro {
-    text-align: center;
-  }
   
   .intro p {
     /*add this alongside your other declarations */
@@ -162,10 +158,11 @@ header {
   .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
   }
 
   .primary-border {
@@ -177,7 +174,6 @@ header {
   }
 
   .steps {
-    text-align: center;
     background: #fce138;
   }
 
@@ -205,9 +201,7 @@ header {
     font-size: 38px;
   }
 
-  .trainers {
-    text-align: center;
-  }
+  .trainers 
 
   .trainer {
     width: 900px;
@@ -254,7 +248,6 @@ header {
 
   /*REACH out styles start*/
   .contact {
-    text-align: center;
     background: #024e76;
   }
 
@@ -290,6 +283,10 @@ header {
 
   .contact-info a {
     color: #fce138;
+  }
+
+  .flex-row {
+    display: flex;
   }
 
   /*reach out styles end */
